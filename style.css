@@ -1,10 +1,17 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     border-left: 5px solid red;
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
 }
 
 .orange-color {
@@ -34,4 +41,149 @@ h1 {
 
 .flexible-container {
     display: flex;
+}
+
+/* ------------------------------------------------ */
+.card-item {
+    width: 20%;
+    background-color: rgba(79, 157, 166, 0.1);
+    padding: 40px 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.card-item img {
+    width: 50%;
+}
+
+.card-item1 {
+    width: 20%;
+    background-color: rgba(255, 89, 89, 0.1);
+    padding: 40px 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.card-item1 img {
+    width: 50%;
+}
+
+.card-item2 {
+    width: 20%;
+    background-color: #FFF4D6;
+    ;
+    padding: 40px 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.card-item2 img {
+    width: 50%;
+}
+
+.flexible-container1 {
+    display: flex;
+    margin-left: 150px;
+
+
+}
+
+/* ----------------------------------- */
+.half-width-develop {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.half-width-develop img {
+    width: 50%;
+    padding-left: 25%;
+
+}
+
+.develop {
+    padding-right: 50px;
+}
+
+.develop h2 {
+    text-align: left;
+}
+
+.flexible-container2 {
+    display: flex;
+}
+
+.top-banner {
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* ------------------------ */
+.half-width-know {
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.know {
+    padding-left: 140px;
+
+}
+
+.know h2 {
+    text-align: left;
+}
+
+.half-width-know img {
+    width: 50%;
+    padding-left: 25%;
+
+}
+
+.flexible-container3 {
+    display: flex;
+}
+
+.know-banner {
+    background-image: url(images/shapes/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+/* .................................... */
+.footer-mission {
+
+    text-align: center;
+    margin: 60px 0px 40px;
+    background: #0B0D17;
+    margin-bottom: 0;
+}
+
+.mission {
+
+    color: white;
+    font-weight: 700;
+}
+
+.mission2022 {
+
+    color: red;
+    font-weight: 400;
+}
+
+.footer-mission h3 {
+    padding-top: 20px;
+    font-style: italic;
+}
+
+
+.footer-mission p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: lightgray;
 }
